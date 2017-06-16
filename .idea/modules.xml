@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/codefirst-sample/codefirst-sample.iml" filepath="$PROJECT_DIR$/codefirst-sample/codefirst-sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/custom-handler-sample/custom-handler-sample.iml" filepath="$PROJECT_DIR$/custom-handler-sample/custom-handler-sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jaxrs-sample/jaxrs-sample.iml" filepath="$PROJECT_DIR$/jaxrs-sample/jaxrs-sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pojo-sample/pojo-sample.iml" filepath="$PROJECT_DIR$/pojo-sample/pojo-sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/samples.iml" filepath="$PROJECT_DIR$/samples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvc-sample/springmvc-sample.iml" filepath="$PROJECT_DIR$/springmvc-sample/springmvc-sample.iml" />
+    </modules>
+  </component>
+</project>
