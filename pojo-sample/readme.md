@@ -1,8 +1,6 @@
-# Code First
+# POJO
 
-It's the sample of code-first
-
-You can write microservice without swagger contract.
+It's sample of pojo
 
 ## How to run sample
 

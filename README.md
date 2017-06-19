@@ -1,10 +1,11 @@
 # samples
 
-Java Chassis 
-
-ServiceComb Java Chassis is a Software Development Kit (SDK) for rapid development of microservices in Java, providing service registration, service discovery, dynamic routing, and service management features
-
 It's the samples of Java chassis
+1. pojo sample
+2. jaxrs sample
+3. spring mvc sample
+4. code first sample
+5. customer handler sample
 
 ## 1. Start the ServiceComb/Service Center
 

@@ -13,17 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package io.servicecomb.samples.chs.models;
+package io.servicecomb.samples.customerhandler;
 
-public class Person {
 
-    private String name;
+import io.servicecomb.samples.customerhandler.models.Person;
 
-    public String getName(){
-        return name;
-    }
+public interface Hello {
 
-    public void setName(String name){
-        this.name = name;
-    }
+    String sayHi(String name);
+
+    String sayHello(Person person);
 }

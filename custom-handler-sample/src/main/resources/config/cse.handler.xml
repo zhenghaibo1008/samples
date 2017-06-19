@@ -15,5 +15,5 @@
   ~ limitations under the License.
   -->
 <config>
-    <handler id="myhandler" class="io.servicecomb.samples.chs.handlers.MyHandler" />
+    <handler id="myhandler" class="io.servicecomb.samples.customerhandler.handlers.MyHandler" />
 </config>

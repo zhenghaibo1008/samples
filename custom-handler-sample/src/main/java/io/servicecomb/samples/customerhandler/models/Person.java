@@ -13,23 +13,17 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+package io.servicecomb.samples.customerhandler.models;
 
-package io.servicecomb.samples.chs.server;
+public class Person {
 
-import io.servicecomb.foundation.common.utils.BeanUtils;
-import io.servicecomb.foundation.common.utils.Log4jUtils;
+    private String name;
 
-public class CHSServer {
+    public String getName(){
+        return name;
+    }
 
-    public static void main(String[] args) throws Exception{
-        if (args.length != 0){
-            String fileName = args[0];
-            if (!fileName.isEmpty()) {
-                System.setProperty("cse.configurationSource.defaultFileName", fileName);
-            }
-        }
-        Log4jUtils.init();
-        BeanUtils.init();
-        System.clearProperty("cse.configurationSource.defaultFileName");
+    public void setName(String name){
+        this.name = name;
     }
 }

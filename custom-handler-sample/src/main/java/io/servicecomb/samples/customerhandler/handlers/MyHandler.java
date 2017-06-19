@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package io.servicecomb.samples.chs.handlers;
+package io.servicecomb.samples.customerhandler.handlers;
 
 import io.servicecomb.core.AsyncResponse;
 import io.servicecomb.core.Invocation;

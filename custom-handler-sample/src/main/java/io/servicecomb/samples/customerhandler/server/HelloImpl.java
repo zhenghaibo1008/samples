@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package io.servicecomb.samples.chs.server;
+package io.servicecomb.samples.customerhandler.server;
 
 
 import io.servicecomb.provider.pojo.RpcSchema;
-import io.servicecomb.samples.chs.Hello;
-import io.servicecomb.samples.chs.models.Person;
+import io.servicecomb.samples.customerhandler.Hello;
+import io.servicecomb.samples.customerhandler.models.Person;
 
 @RpcSchema(schemaId = "hello")
 public class HelloImpl implements Hello {

@@ -1,6 +1,6 @@
 APPLICATION_ID: chstest
 service_description:
-  name: chs
+  name: customerhandler
   version: 0.0.1
 cse:
   service:

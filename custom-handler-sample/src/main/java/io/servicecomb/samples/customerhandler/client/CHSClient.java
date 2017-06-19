@@ -13,19 +13,19 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package io.servicecomb.samples.chs.client;
+package io.servicecomb.samples.customerhandler.client;
 
 import io.servicecomb.foundation.common.utils.BeanUtils;
 import io.servicecomb.foundation.common.utils.Log4jUtils;
 import io.servicecomb.provider.pojo.RpcReference;
-import io.servicecomb.samples.chs.Hello;
-import io.servicecomb.samples.chs.models.Person;
+import io.servicecomb.samples.customerhandler.Hello;
+import io.servicecomb.samples.customerhandler.models.Person;
 import org.springframework.stereotype.Component;
 
 @Component
 public class CHSClient {
 
-    @RpcReference(microserviceName = "chs", schemaId = "hello")
+    @RpcReference(microserviceName = "customerhandler", schemaId = "hello")
     private static Hello hello;
 
     public static void main(String[] args) throws Exception {

@@ -1,8 +1,7 @@
-# Code First
+# JAX RS
 
-It's the sample of code-first
+It's sample of jax rs
 
-You can write microservice without swagger contract.
 
 ## How to run sample
 

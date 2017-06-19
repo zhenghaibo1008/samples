@@ -1,8 +1,7 @@
-# Code First
+# Spring MVC
 
-It's the sample of code-first
+It's sample of spring mvc
 
-You can write microservice without swagger contract.
 
 ## How to run sample
 
